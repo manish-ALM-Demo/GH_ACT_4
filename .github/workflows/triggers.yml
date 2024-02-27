@@ -2,13 +2,15 @@ name: trigger
 
 on:
   pull_request:
-    types: [opened]
-  workflow_dispatch:
+    # types: [opened]
+  # workflow_dispatch:
 
 jobs:
   activity:
-    runs-on: ubuntu-latest
 
+    runs-on: manish_org_runner
     steps:
       - name: Print my statement
-        run: echo "This trigger happened"
+        run: echo "This trigger happened  "
+
+   
