@@ -2,8 +2,8 @@ name: trigger
 
 on:
   pull_request:
-    types: [opened]
-  workflow_dispatch:
+    # types: [opened]
+  # workflow_dispatch:
 
 jobs:
   activity:
