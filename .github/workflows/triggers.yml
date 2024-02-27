@@ -10,4 +10,4 @@ jobs:
     runs-on: manish_org_runner
     steps:
       - name: Print my statement
-        run: echo "This trigger happened "
+        run: echo "This trigger happened  "
